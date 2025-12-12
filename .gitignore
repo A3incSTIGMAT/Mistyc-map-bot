@@ -1,3 +1,4 @@
 .env
 __pycache__/
 *.pyc
+feat: initial bot with secure token loading
