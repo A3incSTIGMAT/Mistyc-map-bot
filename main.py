@@ -175,4 +175,4 @@ async def successful_payment(message: Message):
     if referrer_id:
         balances.setdefault(referrer_id, 0)
         balances[referrer_id] += 15  # 15% от 100 = 15 ⭐ (можно изменить)
-        await bot.send_message(referrer_id, f"🎉 Твой друг купил услугу! Ты получил +15 ⭐ бонус
+        await bot.send_message(referrer_id, f"🎉 Твой друг купил услугу! Ты получил +15 ⭐ бонус")
