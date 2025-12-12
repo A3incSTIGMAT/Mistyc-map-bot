@@ -8,7 +8,7 @@ from aiogram.enums import ParseMode
 from aiogram.client.bot import DefaultBotProperties
 
 # Получаем токен из переменной окружения (никогда не хардкодим!)
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+print(f"✅ BOT_TOKEN: {os.getenv('BOT_TOKEN')}")
 if not BOT_TOKEN:
     raise RuntimeError("❌ Переменная BOT_TOKEN не задана! Добавьте её в Render или .env")
 
